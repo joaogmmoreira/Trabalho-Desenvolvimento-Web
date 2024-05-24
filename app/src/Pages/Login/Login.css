@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2C2C54;
+  padding: 4%;
+  border-radius: 25px;
+  width: 40%;
+}
+
+.form-login-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ECECEC;
+  padding: 4%;
+  width: 100%;
+}
+
+input {
+  border-radius: 15px;
+  width: 100%;
+  font-size: 3vh;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+}

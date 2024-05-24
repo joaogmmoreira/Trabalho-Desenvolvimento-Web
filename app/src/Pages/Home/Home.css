@@ -1,0 +1,19 @@
+.hero {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: url('../../Images/hero1.jpg');
+  font-family: "Oswald", sans-serif;
+}
+
+.hero h1 {
+  color: #ECECEC;
+  padding: 4%;
+  text-shadow: 20px 20px #ececec1c;
+  font-size: 6vh;;
+}
