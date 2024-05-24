@@ -27,7 +27,7 @@ export default function AppRoutes() {
             )}
           />
           <Route
-            path="/sinopse"
+            path="/sinopse/:id"
             element={(
               <Private>
                 <Sinopse />

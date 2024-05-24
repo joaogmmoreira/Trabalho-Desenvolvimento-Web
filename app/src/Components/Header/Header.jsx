@@ -35,7 +35,7 @@ export default function HeaderHome() {
     const items = (
       <nav className={`nav-desktop`}>
         {authenticated ? <a className={`nav-menu-desktop`} href="/videos">Home</a> : <a className={`nav-menu-desktop`} href="/">Home</a>}
-        {authenticated ? null : <a className={`nav-menu-desktop`} href="/sign">Assine já</a>}
+        {/* {authenticated ? null : <a className={`nav-menu-desktop`} href="/sign">Assine já</a>} */}
         {authenticated ? <a className={`nav-menu-desktop`} href="/" onClick={logout}>Sair</a> : null}
         {authenticated ? null : <a className={`nav-menu-desktop`} href="/login">Login</a>}
       </nav>

@@ -1,12 +1,12 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import './MovieCard';
 
 export default function MovieCard(props) {
-  const history = useHistory();
+  const navigate = useNavigate();
   
   const handleClick = () => {
-    history.push(`/sinopse/${props.id}`)
+    navigate(`/sinopse/:${props.id}`)
   }
 
   return (
