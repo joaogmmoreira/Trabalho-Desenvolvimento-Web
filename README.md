@@ -10,7 +10,7 @@
 
 Rotas da aplicação:
 
-1. **Home** (/): Home page com introdução ao serviço.
+1. **Home** (/): Home page com introdução ao serviço e trailer com vídeo do Youtube incorporado à página.
 2. **Login** (/login): Página de login para o usuário entrar com sua conta.
 3. **Vídeos** (/videos): Página que o usuário entra para escolher o filme que deseja assistir, tendo título, poster e nota do filme.
 4. **Sinopse** (/sinopse): Após clicar no filme que deseja o usuário é levado para uma página onde é apresentado a ele sua sinopse.
